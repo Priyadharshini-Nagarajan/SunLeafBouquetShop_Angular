@@ -1,0 +1,117 @@
+.up{
+    line-height: 0.5;
+    text-align: center;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+.navimanual{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.manualbt{
+    border: 2px solid rgb(121, 4, 121);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manualbt:not(:last-child)
+{
+    margin-right: 40px;
+}
+.manualbt:hover{
+    background:darkmagenta;
+}
+#r1:checked~.first{
+    margin-left: 0;
+}
+#r2:checked~.first{
+    margin-left: -20%;
+}
+#r3:checked~.first{
+    margin-left: -40%;
+}
+#r4:checked~.first{
+    margin-left: -60%;
+}
+#r5:checked~.first{
+    margin-left: -80%;
+}
+.naviauto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.naviauto div{
+    border: 2px solid rgb(121, 4, 121);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.naviauto div:not(:last-child)
+{
+    margin-right: 40px;
+}
+#r1~:checked .naviauto .autobt1{
+    background:  rgb(121, 4, 121);
+}
+#r2~:checked .naviauto .autobt2{
+    background:  rgb(121, 4, 121);
+}
+#r3~:checked .naviauto .autobt3{
+    background:  rgb(121, 4, 121);
+}
+#r4~:checked .naviauto .autobt4{
+    background:  rgb(121, 4, 121);
+}
+#r5~:checked .naviauto .autobt5{
+    background:  rgb(121, 4, 121);
+}
+.ab{
+    text-align: center;
+}
+.ab h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:navy;
+}
+.ab1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+}

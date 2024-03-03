@@ -1,0 +1,20 @@
+<header>
+    <nav>
+        <input type="checkbox" id="check" >
+        <label for="check" class="checkbt">
+            <i class="fa fa-solid fa-bars"></i>
+        </label>
+       
+        <label class="logo">SunLeaf Bouquet</label>
+        <ul>
+            <li><a class="active" [routerLink]="['']">Home</a></li>
+            <li><a [routerLink]="['services']">Services</a></li>
+            <li><a [routerLink]="['map']">Map</a></li>
+            <li><a [routerLink]="['contact-us']">Contact Us</a></li>
+        </ul>
+    </nav>
+  
+</header>
+
+<router-outlet></router-outlet>
+<footer>All rights deserves SunLeaf</footer>

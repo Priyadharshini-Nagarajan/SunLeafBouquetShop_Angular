@@ -1,0 +1,73 @@
+<div class="up">
+        <h1>Welcome to SunLeaf</h1>
+        <h3>Fresh & Natural & Beautiful Flowers</h3>
+        <address>Gobichettipalayam, Erode.</address>
+</div>
+<div class="main">
+<div class="slider">
+    <div class="slides">
+        <input type="radio" name="radiobt" id="r1">
+        <input type="radio" name="radiobt" id="r2">
+        <input type="radio" name="radiobt" id="r3">
+        <input type="radio" name="radiobt" id="r4">
+        <input type="radio" name="radiobt" id="r5">
+        <div class="slide first">
+            <img src="../assets/img/12.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="../assets/img/77.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="../assets/img/30.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="../assets/img/74.jpg" alt=""/>
+        </div>
+        <div class="slide">
+            <img src="../assets/img/78.jpg" alt=""/>
+        </div>
+        <div class="naviauto">
+            <div class="autobt1"></div>
+            <div class="autobt2"></div>
+            <div class="autobt3"></div>
+            <div class="autobt4"></div>
+            <div class="autobt5"></div>
+        </div>
+        <div class="navimanual">
+            <label for="r1" class="manualbt"></label>
+            <label for="r2" class="manualbt"></label>
+            <label for="r3" class="manualbt"></label>
+            <label for="r4" class="manualbt"></label>
+            <label for="r5" class="manualbt"></label>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    var count=1;
+    setInterval(function(){
+        document.getElementById('radio'+count).ariaChecked=true;
+        count++;
+        if(count>5){
+        count=1;
+        }
+    },5000)
+</script>
+<div class="ab">
+<h1>About Us</h1>
+<P>Welcome to Sunleaf Bouquet Shop, Where we believe in the power of flowers to bring joy and beauty into people's lives. Established in 2016 with a passion for floristry and commitment to excellence, our shop has been a cherished part of the community for 5 years. Since our humble beginnings in 2017, We have remained dedicated to our mission of spreading happiness, love, and positivity through the beauty of flowers. Over years we've had the privilege of serving countless customers and being a part of their most meaningful moments.</P>
+<h1>Delivery Information</h1>
+<p>At SunLeaf, We are pleased to offer delivery service to our local community. Our delivery radius includes[Gobichettipalayam, Sathy, La.Kallipatti, Puthukarai Pudur, Kavindapadi]. Unfortunately, we are unable to fulfill orders outside of these areas at this time.</p>
+<button type="button"><a [routerLink]="['services']">Expolore</a></button>
+</div>
+<div class="ab1">
+<h2>Delivery Radius</h2>
+<ul>
+    <li>Gobichettipalayam</li>
+    <li>Sathy</li>
+    <li>Erode</li>
+</ul>
+<h2>Ordering & Delivery Process</h2>
+<p>To place a delivery order, simply give us a call at 9080455275, 9715013020.</p>
+<p>Please Provide the recipient's address within our delivery radius when placing your order. We will ensure your flowers are delivered promptly and with care.</p>
+</div>
